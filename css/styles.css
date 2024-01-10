@@ -1,0 +1,126 @@
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.logo-first-part {
+color: var(--IRIS, #4D5AE5);
+font-family: Raleway;
+font-size: 18px;
+font-weight: 800;
+line-height: 1.17; /* 116.667% */
+letter-spacing: 0.54px;
+text-transform: uppercase;
+}
+
+.logo-second-part {
+ color: var(--NAVY-BLUE, #2E2F42);
+font-family: Raleway;
+font-size: 18px;
+font-weight: 800;
+line-height: 1.17; /* 116.667% */
+letter-spacing: 0.54px;
+text-transform: uppercase;
+}
+
+.menu-link {
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.32px;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: #404BBF
+}
+
+.contact-mail {
+color: var(--SLATE, #434455);
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.32px;
+}
+
+.contact-mail:hover,
+.contact-mail:focus {
+    color: var(--IRIS, #4D5AE5);
+}
+
+.contact-phone {
+color: var(--SLATE, #434455);
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.32px;
+}
+
+.contact-phone:hover,
+.contact-phone:focus {
+    color: var(--IRIS, #4D5AE5);
+}
+
+.modal-btn {
+color: #FFF;
+background-color: #4D5AE5;
+cursor: pointer;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.64px;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+    background-color: #404BBF;
+    color: #FFF
+}
+
+.main-title {
+text-align: center;
+font-family: Roboto;
+font-size: 56px;
+font-weight: 700;
+line-height: 1.07; /* 107.143% */
+letter-spacing: 1.12px;
+}
+
+.subtitle {
+color: var(--SLATE, #434455);
+
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.32px;
+}
+
+.third-title {
+color: var(--NAVY-BLUE, #2E2F42);
+
+font-family: Roboto;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2; /* 120% */
+letter-spacing: 0.4px;
+}
+
+.second-title {
+color: var(--NAVY-BLUE, #2E2F42);
+text-align: center;
+
+font-family: Roboto;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11; /* 111.111% */
+letter-spacing: 0.72px;
+text-transform: capitalize;
+}
