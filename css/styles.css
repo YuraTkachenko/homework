@@ -1,3 +1,9 @@
+:root {
+    --accent-color: #404BBF;
+    --primary-font: Roboto, sans-serif;
+    --secondary-font: Raleway, sans-serif;
+}
+
 .list {
     list-style: none;
 }
@@ -6,19 +12,25 @@
     text-decoration: none;
 }
 
+body {
+ font-family: var(--primary-font)
+}
+
+/*------ Components ------*/
+
 .logo-first-part {
-color: var(--IRIS, #4D5AE5);
-font-family: Raleway;
+color: #4D5AE5;
+font-family: var(--secondary-font)
 font-size: 18px;
 font-weight: 800;
 line-height: 1.17; /* 116.667% */
 letter-spacing: 0.54px;
 text-transform: uppercase;
 }
-
+    
 .logo-second-part {
- color: var(--NAVY-BLUE, #2E2F42);
-font-family: Raleway;
+color: #2E2F42;
+font-family: var(--secondary-font)
 font-size: 18px;
 font-weight: 800;
 line-height: 1.17; /* 116.667% */
@@ -26,8 +38,36 @@ letter-spacing: 0.54px;
 text-transform: uppercase;
 }
 
+.subtitle {
+color: #434455;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.32px;
+}
+
+.second-title {
+color: #2E2F42;
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11; /* 111.111% */
+letter-spacing: 0.72px;
+text-transform: capitalize;
+}
+
+.third-title {
+color: #2E2F42;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2; /* 120% */
+letter-spacing: 0.4px;
+}
+
+/*------ !Components ------*/
+
+/*------ Header ------*/
 .menu-link {
-font-family: Roboto;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5; /* 150% */
@@ -36,12 +76,11 @@ letter-spacing: 0.32px;
 
 .menu-link:hover,
 .menu-link:focus {
-    color: #404BBF
+    color: var(--accent-color)
 }
 
 .contact-mail {
 color: var(--SLATE, #434455);
-font-family: Roboto;
 font-size: 16px;
 font-weight: 400;
 line-height: 1.5; /* 150% */
@@ -55,7 +94,6 @@ letter-spacing: 0.32px;
 
 .contact-phone {
 color: var(--SLATE, #434455);
-font-family: Roboto;
 font-size: 16px;
 font-weight: 400;
 line-height: 1.5; /* 150% */
@@ -67,11 +105,13 @@ letter-spacing: 0.32px;
     color: var(--IRIS, #4D5AE5);
 }
 
+/*------ !Header ------*/
+
+/*------ Hero ------*/
 .modal-btn {
 color: #FFF;
 background-color: #4D5AE5;
 cursor: pointer;
-font-family: Roboto;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5; /* 150% */
@@ -80,47 +120,36 @@ letter-spacing: 0.64px;
 
 .modal-btn:hover,
 .modal-btn:focus {
-    background-color: #404BBF;
+    background-color: var(--accent-color);
     color: #FFF
 }
 
 .main-title {
 text-align: center;
-font-family: Roboto;
 font-size: 56px;
 font-weight: 700;
 line-height: 1.07; /* 107.143% */
 letter-spacing: 1.12px;
 }
 
-.subtitle {
-color: var(--SLATE, #434455);
+/*------ !Hero ------*/
 
-font-family: Roboto;
+/*------ Portfolio ------*/
+
+.portfolio-btn {
+color: #4D5AE5;
+background-color: #F4F4FD;
+cursor: pointer;
 font-size: 16px;
-font-weight: 400;
-line-height: 1.5; /* 150% */
-letter-spacing: 0.32px;
-}
-
-.third-title {
-color: var(--NAVY-BLUE, #2E2F42);
-
-font-family: Roboto;
-font-size: 20px;
 font-weight: 500;
-line-height: 1.2; /* 120% */
-letter-spacing: 0.4px;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.64px;
 }
 
-.second-title {
-color: var(--NAVY-BLUE, #2E2F42);
-text-align: center;
-
-font-family: Roboto;
-font-size: 36px;
-font-weight: 700;
-line-height: 1.11; /* 111.111% */
-letter-spacing: 0.72px;
-text-transform: capitalize;
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    background-color: var(--accent-color);
+    color: #FFF
 }
+
+/*------ !Portfolio ------*/
