@@ -4,6 +4,25 @@
     --secondary-font: Raleway, sans-serif;
 }
 
+h1,h2,h3,h4,p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,ol {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+button {
+    cursor: pointer;
+}
+
 .list {
     list-style: none;
 }
@@ -17,11 +36,19 @@ body {
  color: #2E2F42;
 }
 
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 /*------ Components ------*/
 
 .logo-first-part {
 color: #4D5AE5;
-font-family: var(--secondary-font)
+font-family: var(--secondary-font);
 font-size: 18px;
 font-weight: 800;
 line-height: 1.17; /* 116.667% */
@@ -30,7 +57,7 @@ text-transform: uppercase;
 }
     
 .logo-second-part {
-font-family: var(--secondary-font)
+font-family: var(--secondary-font);
 font-size: 18px;
 font-weight: 800;
 line-height: 1.17; /* 116.667% */
@@ -65,6 +92,32 @@ letter-spacing: 0.4px;
 /*------ !Components ------*/
 
 /*------ Header ------*/
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: 71px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu-item:not(:last-child) {
+margin-right: 40px;
+}
+
+.page-header-container {
+    display: flex;
+    align-items: center;
+}
+
 .menu-link {
 font-size: 16px;
 font-weight: 500;
@@ -75,6 +128,11 @@ letter-spacing: 0.32px;
 .menu-link:hover,
 .menu-link:focus {
     color: var(--accent-color)
+}
+
+.contact-list {
+    display: flex;
+    align-items: center;
 }
 
 .contact-mail {
@@ -109,7 +167,6 @@ letter-spacing: 0.32px;
 .modal-btn {
 color: #FFF;
 background-color: #4D5AE5;
-cursor: pointer;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5; /* 150% */
@@ -137,7 +194,6 @@ letter-spacing: 1.12px;
 .portfolio-btn {
 color: #4D5AE5;
 background-color: #F4F4FD;
-cursor: pointer;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5; /* 150% */
